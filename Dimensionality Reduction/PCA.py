@@ -53,6 +53,8 @@ if __name__ == '__main__':
     for x in X:
         pca_conv.append(np.dot(eigenvec_1.reshape((1, -1)), x.reshape((-1, 1))))
 
+
+# code by Gourab Roy
     print("First principle Components for:" + "\n")
 
     for i in range(l):
